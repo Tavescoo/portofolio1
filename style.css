@@ -1,0 +1,393 @@
+@media only screen and (min-width: 768px){
+    /* For desktop: */
+body{ 
+    background-image: url(images/s/background22.jpg);
+    background-size: auto;
+    font-family: serif; 
+    letter-spacing: 1px;
+    margin-top: 70px;
+    margin-left: 70px;
+    margin-right: 70px;
+    border-bottom: 1px solid white;
+    margin-bottom: 0px;
+    max-width: 100%;
+    height: auto;
+    }
+
+ul {
+    list-style-type: none;
+    border-top: solid papayawhip 1px;
+    border-bottom: solid papayawhip 1px;
+    margin:0;
+    padding: 3px;
+    overflow: hidden;
+    
+}
+
+li {
+    float: left;
+}
+ 
+.content a {
+    font-size: 10px;
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: white;
+    float: right;
+    border: 0px;
+    max-width: 100%;
+    height: auto;
+           }
+
+.head {
+    position: relative;
+    color:white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 20px;
+    margin-top: -50px;
+    max-width: 100%;
+    height: auto;
+
+        
+      }
+   
+.piatra{
+    grid-area: pi;
+    display: block;
+    transform: rotate(90deg);
+    border-top-width: 100px;         
+    margin-bottom: 150px; 
+    margin-top: 150px;
+    shape-image-threshold: 0.5;
+    float: bottom;
+    width: 100%;
+    height: auto;
+        }             
+ 
+
+.paragraph1{ 
+    grid-area: ph1;
+    font-size: 20px;
+    text-decoration: none;
+    color:white;
+    margin-top: 130px;
+    padding-top: 10px;
+    padding-right: 70px;
+    border-bottom: 100px;
+    padding-bottom: 30px;
+    max-width: 100%;
+    height: auto;
+            }
+    
+
+.grid{ 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:    "pi ph1";
+      }  
+
+
+
+.cp {  
+    text-align: center;
+    text-decoration:inherit;
+    max-width: 100%;
+    height: auto;
+    text-decoration: underline;
+    color:white;
+      }
+
+
+                    
+                             
+.images{ 
+    margin: 15px;
+    padding: 3px;
+    border-left: 3em;
+    width:150px;
+    height: auto;
+        }
+
+                             
+ .work{ 
+    margin-top: 50px;
+    margin-bottom:80px;
+    max-width: 100%;
+    height: auto;
+    text-align:center;
+       } 
+                    
+.contact { 
+    display:block;
+    margin:auto;
+    font-size: 20px;
+    max-width: 100%;
+    height:auto;
+    width: 400px;
+    background-color: lightsteelblue;
+    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 50px;
+    margin-top: 100px;
+                                    
+                                            
+                    }
+    .socmed{ 
+    margin: auto;
+    padding: 3px;
+    width:80px;
+    height: auto;
+        }
+    
+             
+
+.txt{ 
+    max-width: 100%;
+    height: auto;
+    color: black;
+    font-size: 20px;
+    border-top: 60px;
+    border-bottom: 100px;
+       }
+ 
+.body1{ 
+    background-image: url(images/s/background.jpg)
+        
+      }
+                    
+.eusebiu-tavi-container{ 
+    position: relative;
+    bottom: 10px;
+    left: 20px;
+                       }
+
+
+
+
+span{ 
+    font-size: 10px;
+    text-transform: capitalize;
+    opacity: 0;
+    color: papayawhip;
+    filter: alpha(opacity=0);
+     }
+ .tavescoo{ 
+     -webkit-transition: all .3s  2.3s;
+        transition: all .3s  2.3s;
+                }
+
+
+
+.animate .tavescoo{ 
+    font-size: 60px;
+    -webkit-transform: ;
+    -ms-transform: scale(1.5,1.5);
+    transform: scale(1.5,1.5);
+    opacity: 1;
+    filter: alpha(opacity=100);
+     
+                }
+                    
+  .press{ 
+      color: indianred;
+         }
+}
+@media only screen and (max-width: 768px){
+    
+    
+    
+    
+    /* For mobile phones: */
+    
+    
+    
+    
+    
+    
+body{ 
+    background-image: url(images/s/background22.jpg);
+    background-size: auto;
+    font-family: serif; 
+    letter-spacing: 1px;
+    border-bottom: 1px solid white;
+    margin-bottom: 0px;
+    max-width: 100%;
+    height: auto;
+    }  
+ul {
+    list-style-type: none;
+    border-top: solid papayawhip 1px;
+    border-bottom: solid papayawhip 1px;
+    padding: 3px;
+    overflow: hidden;
+    
+}
+    li{
+    float:left;
+}
+  
+.content a {
+    font-size: 10px;
+    text-decoration: none;
+    display:inline-block;
+    padding: 1em;
+    color: white;
+    float: right;
+    border: 0px;
+    max-width: 100%;
+    height: auto;
+           }
+
+.head {
+    position: relative;
+    color:white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 15px;
+    max-width: 100%;
+    height: auto;
+
+        
+      }
+   
+.piatra{
+    display: block;
+    transform: rotate(90deg);         
+    margin-bottom: 70px; 
+    margin-top: 100px;
+    shape-image-threshold: .5px;
+    width: 350px;
+    height: auto;
+        }             
+ 
+
+.paragraph1{ 
+    font-size: 20px;
+    text-decoration:none;
+    color:white;
+    margin-top: 130px;
+    padding-top: 10px;
+    padding-left:20px;
+    padding-right: 30px;
+    border-bottom: 100px;
+    padding-bottom: 30px;
+    max-width: 100%;
+    height: auto;
+            }
+    
+
+  
+
+
+
+.cp {  
+    text-align: center;
+    text-decoration:inherit;
+    max-width: 100%;
+    height: auto;
+    text-decoration: underline;
+    color:white;
+      }
+
+
+                    
+                             
+.images{ 
+    margin: 15px;
+    padding: 3px;
+    border-left: 3em;
+    width:150px;
+    height: auto;
+        }
+
+                             
+ .work{ 
+    margin-top: 3em;
+    max-width: 100%;
+    height: auto;
+    text-align:center;
+       } 
+                    
+.contact { 
+    display:block;
+    margin: auto;
+    font-size: 20px;
+    height:auto;
+    width: 350px;
+    background-color: lightsteelblue;
+    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+                                    
+                                            
+                    }
+    .socmed{ 
+    margin: 15px;
+    padding: 3px;
+    width:50px;
+    height: auto;
+        }
+    
+             
+
+.txt{ 
+    max-width: 100%;
+    height: auto;
+    color: black;
+    font-size: 20px;
+    border-top: 60px;
+    border-bottom: 100px;
+       }
+ 
+.body1{ 
+    background-image: url(images/s/background.jpg)
+        
+      }
+                    
+.eusebiu-tavi-container{ 
+    position: relative;
+    margin-top:300px;
+    margin-left:20px;
+                       }
+
+
+
+
+span{ 
+    font-size: 10px;
+    text-transform: capitalize;
+    opacity: 0;
+    color: papayawhip;
+    filter: alpha(opacity=0);
+     }
+ .tavescoo{ 
+     -webkit-transition: all .3s  2.3s;
+        transition: all .3s  2.3s;
+                }
+
+
+
+.animate .tavescoo{ 
+    font-size: 30px;
+    -webkit-transform: ;
+    -ms-transform: scale(1.5,1.5);
+    transform: scale(1.5,1.5);
+    opacity: 1;
+    filter: alpha(opacity=100);
+     
+                }
+                    
+  .press{
+      color: indianred;
+         }
+    
+}
+                
+                             
